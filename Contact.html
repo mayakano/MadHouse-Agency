@@ -1,0 +1,531 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MadHouse</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <link rel="stylesheet" rel="stylesheet" href="css/style.css">
+
+    <style>				
+    .help-block.with-errors	{			
+        color: red;			
+        font-family: 'Montserrat', sans-serif;			
+        font-size: 12px;			
+        padding: 0px 10px 10px 0px;		
+    }
+        @media only screen and (max-device-width :320px) {
+            .cont {
+                margin-left: 140px !important;
+                position: absolute;
+                width: 830px !important;
+                line-height: 140px !important;
+            }
+
+            .content-title {
+                line-height: 1.4;
+                font-family: "Mort Modern", "Arial", serif;
+            }
+
+            .togal {
+                left: 800px !important;
+                width: 60px !important;
+                position: absolute !important;
+                z-index: 100 !important;
+                top: 59px !important;
+            }
+
+            .logo {
+                float: left;
+                margin-top: -120px !important;
+                margin-left: 30px;
+                width: 5%;
+            }
+
+            fieldset {
+                border: medium none !important;
+                margin: 0 0 10px;
+                min-width: 100%;
+                padding: 0;
+                width: 100%;
+                text-align: center;
+            }
+
+            #contact input[type="submit"] {
+                cursor: pointer;
+                width: 30%;
+                border: none;
+                background: transparent;
+                color: #FFF;
+                margin: 0 0 5px;
+                padding: 30px;
+                border: 2px solid #8582b7;
+                font-size: 35px;
+            }
+
+            .boxline {
+                font-size: 3vh !important;
+            }
+        }
+
+        @media only screen and (max-device-width :360px) {
+            .cont {
+                margin-left: 140px !important;
+                position: absolute;
+                width: 660px !important;
+                line-height: 140px !important;
+            }
+
+            .content-title {
+                line-height: 1.4;
+                font-family: "Mort Modern", "Arial", serif;
+            }
+
+            #contact input[type="submit"] {
+                cursor: pointer;
+                width: 30%;
+                border: none;
+                background: transparent;
+                color: #FFF;
+                margin: 0 0 5px;
+                padding: 30px;
+                border: 2px solid #8582b7;
+                font-size: 35px;
+            }
+
+            .togal {
+                left: 800px !important;
+                width: 60px !important;
+                position: absolute !important;
+                z-index: 100 !important;
+                top: 59px !important;
+            }
+
+            .boxline {
+                font-size: 3vh !important;
+            }
+        }
+
+        @media only screen and (max-device-width :411px) {
+            .cont {
+                margin-left: 140px !important;
+                position: absolute;
+                width: 830px !important;
+                line-height: 140px !important;
+            }
+
+            .content-title {
+                line-height: 1.4;
+                font-family: "Mort Modern", "Arial", serif;
+            }
+
+            #contact input[type="submit"] {
+                cursor: pointer;
+                width: 40%;
+                border: none;
+                background: transparent;
+                color: #FFF;
+                margin: 0 0 5px;
+                padding: 40px;
+                border: 2px solid #8582b7;
+                font-size: 35px;
+                    display: block;
+                text-align: center;
+                margin-left: auto!important;
+                margin-right: auto!important;
+                font-size: 60px!important;
+                padding: 60px!important;
+                width: 100%!important;
+                width: 500px!important;
+                border: 5px solid #8582b7!important;
+            }
+
+            .boxline {
+                font-size: 3vh !important;
+            }
+        }
+
+        @media only screen and (min-device-width:321px) and (max-device-width:768px) {
+
+            .bgcolor {
+                margin-left: 70px !important;
+                color: #fff;
+                margin-top: 180px !important;
+            }
+
+            .ttl {
+                margin-top: 60px !important;
+                margin-left: 0px !important;
+            }
+
+            .togal {
+                left: 800px !important;
+                width: 60px !important;
+                position: absolute !important;
+                z-index: 100 !important;
+                top: 59px !important;
+            }
+
+            .locate {
+                text-align: left;
+                padding: 40px !important;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 3.3em!important;
+                line-height: 1.2em!important;
+            }
+
+            .content-title {
+                line-height: 1.4;
+                font-family: "Mort Modern", "Arial", serif;
+            }
+
+            .cont {
+                margin-left: 80px !important;
+                position: absolute;
+                width: 400px;
+                margin-top: 100px !important;
+            }
+
+               #contact input[type="submit"] {
+                cursor: pointer;
+                width: 40%;
+                border: none;
+                background: transparent;
+                color: #FFF;
+                margin: 0 0 5px;
+                padding: 40px;
+                border: 2px solid #8582b7;
+                font-size: 35px;
+                    display: block;
+                text-align: center;
+                margin-left: auto!important;
+                margin-right: auto!important;
+                font-size: 60px!important;
+                padding: 60px!important;
+                width: 100%!important;
+                width: 500px!important;
+                border: 5px solid #8582b7!important;
+            }  
+
+            #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact input[type="submit"] {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 3.4em!important;
+            }
+
+            .box_a{
+                height:95%!important;
+            }
+
+            .map-contact {
+                margin-top: 0px!important;
+                width: 100%!important;
+            }			
+
+
+        }
+
+        @media only screen and (max-device-width :1024px) {
+            .bgcolor {
+                margin-left: 70px !important;
+                color: #fff;
+                margin-top: 180px !important;
+            }
+
+            #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+                width: 100%;
+                border: 3px solid #ccc;
+                background: #FFF;
+                margin: 0px;
+                padding-top: 40px;
+            }
+
+            .cont {
+                margin-left: 140px !important;
+                position: absolute;
+                width: 830px !important;
+                line-height: 140px !important;
+            }
+
+            .boxline {
+                background-color: transparent !important;
+                border: none !important;
+                border-bottom: 3px solid #8dc2d4 !important;
+                color: #8dc2d4;
+            }
+
+            .logo {
+                margin-top: 0px !important;
+                margin-left: 30px !important;
+                width: 15% !important;
+                padding-top: 30px !important;
+            }
+
+            .togal {
+                left: 800px !important;
+                width: 60px !important;
+                position: absolute !important;
+                z-index: 100 !important;
+                top: 59px !important;
+            }
+
+            .content-title {
+                font-size: 8vh !important;
+                line-height: 1.4;
+                font-family: "Mort Modern", "Arial", serif;
+                text-align: right;
+                margin-right: 92px;
+            }
+
+            .cont {
+                margin-left: 60px !important;
+                position: absolute;
+                width: 830px;
+                margin-top: 100px !important;
+            }
+        }				
+        .messages  {			
+            color: white;			
+            padding: 10px;		
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="box_a">
+        <a href="http://test.madhouseinc.com/beta7"><img class="logo" id="logo-contact" src="assets/img/logohome4.png"></a>
+        <h1 class="content-title contact-title  ttl bgcolor">Contact</h1>
+        <form class="cont" id="contact" method="post" action="contact.php" role="form" autocomplete="off">			
+            <div class="messages"></div>                    
+            <div class="controls">                       
+             <div class="row">                            
+                <div class="col-md-12">                                
+                    <div class="form-group">                                    
+                        <input id="form_name" type="text" name="name" class="form-control boxline" placeholder="Name" required="required" data-error="Name is required." tabindex="1" autocomplete="off">          
+                        <div class="help-block with-errors"></div>                               
+                         </div>                            
+                     </div>                        
+                 </div>						
+                 <div class="row">                            
+                    <div class="col-md-12">                                
+                        <div class="form-group">                                    
+                            <input id="form_email" type="email" name="email" class="form-control boxline" placeholder="Email" required="required" data-error="Email is required." tabindex="2" autocomplete="off"> 
+                            <div class="help-block with-errors">
+                            </div>                                
+                        </div>                            
+                    </div>                        
+                </div>						
+                <div class="row">                            
+                    <div class="col-md-12">                                
+                        <div class="form-group">                                    
+                            <input id="form_phone" type="tel" name="phone" class="form-control boxline" placeholder="Phone" required="required" data-error="Phone is required." tabindex="3" autocomplete="off">       
+                            <div class="help-block with-errors">
+                            </div>                                
+                        </div>                            
+                    </div>                        
+                </div>						
+                <div class="row">                            
+                    <div class="col-md-12">                                
+                        <div class="form-group">                                    
+                            <textarea id="form_message" name="message" class="form-control boxline" placeholder="Message" rows="4" required="required" data-error="Message is required." tabindex="4" autocomplete="off" ></textarea>                                    
+                            <div class="help-block with-errors">
+                            </div>                                
+                        </div>                            
+                    </div>                        
+                </div>						
+                <div class="row">                             
+                    <div class="col-md-12">                                
+                        <input type="submit" class="btn btn-success btn-send" value="Send It!">                           
+                    </div>                        
+                </div>                    
+            </div>
+        </form>
+    </div>
+    <div id="box_b">
+
+        <img src="assets/img/map.png" class="map-contact">        
+        <img src="assets/img/map-mobile.png" class="map-contact-mobile">
+        <div class="locate">
+           <span>124 E, Hudson Ave.,<br />
+            Royal Oak, Michigan<br> 487056</span><br /> <br /><span><a style="text-decoration: none;color: white;" href="tel:1-248-268-8400">248.268.8400</a></span>
+            <br/><br />
+            <span>Proudly serving the Detroit Metro Area</span>
+        </div>
+    </div>	
+    <div class="mobile-footer">		
+        <i class=" fab fa-facebook-square fa-lg"></i>		
+        <i class=" fab fa-linkedin-square fa-lg"></i>		
+        <i class=" fab fa-pinterest fa-lg"></i>		
+        <i class=" fab fa-twitter fa-lg"></i>		
+        <i class=" fab fa-google-plus-g fa-lg"></i>	
+    </div>
+
+    <style type="text/css">
+        .locate {
+    text-align: left;
+    padding: 10px 15px 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13.5px;
+    line-height: 21px;
+    color: #e7e6e6;
+    }
+
+    .map-contact {
+    width: 270px;
+    max-width: 100%;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
+
+    #box_b {
+    display: inline-block;
+    width: 30%;
+    float: right;
+    background: #bec9cd;
+    height: 100%;
+    }
+
+    ::-webkit-input-placeholder {
+    color: #bac7c9;
+}
+
+:-moz-placeholder {
+    color: #bac7c9;
+}
+
+::-moz-placeholder {
+    color: #bac7c9;
+}
+
+:-ms-input-placeholder {
+    color: #bac7c9;
+}
+
+
+    #contact input[type="text"],
+    #contact input[type="email"],
+    #contact input[type="tel"],
+    #contact input[type="url"],
+    #contact textarea,
+    #contact input[type="submit"] {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14.5px;
+    }
+
+    #contact input[type="submit"] {
+    cursor: pointer;
+    width: 30%;
+    border: none;
+    background: transparent;
+    color: #8582b7;
+    margin: 20px 0 15px;
+    padding: 8px;
+    border: 1.3px solid #8582b7;
+    font-size: 15px;
+}
+
+.contact-title {
+    font-size: 17vh;
+    color: #e8e8e8;
+}
+
+#logo-contact {
+    float: left;
+    width: 7%;
+    margin-top: 20px;
+    margin-left: 20px
+}
+
+.cont {
+    margin-left: 150px;
+    position: absolute;
+    width: 400px;
+    margin-top: 20px;
+}
+
+    </style>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js'></script>
+    <script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+
+
+
+    <div class="menu-section menu">
+
+        <div class="menu-toggle togal" id="logo-scroll">
+            <h3 id="open-pg" style="color: #295541;">Contact</h3>
+            <div id="lines-menu">
+                <div class="one" style="background-color: #295541;"></div>
+                <div class="two" style="background-color: #295541;"></div>
+                <div class="three" style="background-color: #295541;"></div>
+            </div>
+        </div>
+        <div class="menu-body hidden">
+            <nav>
+            <ul role="navigation">
+                <li><a href="index.html">Who Are We</a></li>
+                <li><a href="index.html">What Do We Stand For</a></li>
+                <li><a href="index.html">Why Should You Care</a></li>
+                <li><a href="process.html">Our Process</a></li>
+                <li><a href="expertise.html">Our Expertise</a></li>
+                <li><a href="thinking.html">Our Thinking</a></li>
+                <li><a href="clients.html">Our Clients</a></li>
+                <li><a href="author.html">About the Author</a></li>
+            </ul>
+        </nav>
+        <div class="contactus">
+                <p id="contactusButton">
+                    <a href="Contact.html">Contact Us</a>
+                </p>
+                <div class="socialButtons">
+                    <p>
+                        <i class="icon fab fa-facebook-square fa-lg"></i>
+                    </p>
+                    <p>
+                        <i class="icon fab fa-linkedin-square fa-lg"></i>
+                    </p>
+                    <p>
+                        <i class="icon fab fa-pinterest fa-lg"></i>
+                    </p>
+                    <p>
+                        <i class="icon fab fa-twitter fa-lg"></i>
+                    </p>
+                    <p>
+                        <i class="icon fab fa-google-plus-g fa-lg"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/parallax.js"></script>
+
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>    <script src="contact.js"></script>
+    <script>
+        $(".menu-toggle").on('click', function () {
+            $(this).toggleClass("on");
+            $('.menu-section').toggleClass("on");
+            $(".menu-body").toggle();
+        });
+    </script>
+
+
+</body>
+
+</html>

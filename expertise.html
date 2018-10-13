@@ -1,0 +1,854 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Our Expertise</title>
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" media="all" rel="stylesheet">
+    <link href="css/styles.css" media="all" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.1/modernizr.min.js"></script>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+  </head>
+
+  <body>
+
+
+<div class="menu-section">
+
+  <div class="menu-toggle togal" id="logo-scroll">
+     <h3 id="open-pg">Our Expertise</h3>
+      <div id="lines-menu">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+    </div>
+  </div>
+  <div class="menu-body hidden">
+            <nav>
+                <ul role="navigation">
+                    <li><a href="index.html">Who Are We</a></li>
+                    <li><a href="index.html">What Do We Stand For</a></li>
+                    <li><a href="index.html">Why Should You Care</a></li>
+                    <li><a href="process.html">Our Process</a></li>
+                    <li><a href="expertise.html">Our Expertise</a></li>
+                    <li><a href="thinking.html">Our Thinking</a></li>
+                    <li><a href="clients.html">Our Clients</a></li>
+                    <li><a href="author.html">About the Author</a></li>
+                </ul>
+            </nav>
+            <div class="contactus">
+                <p id="contactusButton">
+                    <a href="Contact.html">Contact Us</a>
+                </p>
+                <div class="socialButtons">
+                    <p>
+                        <i class="icon fab fa-facebook-square fa-lg"></i>
+                    </p>
+                    <p>
+                        <i class="icon fab fa-linkedin-square fa-lg"></i>
+                    </p>
+                    <p>
+                        <i class="icon fab fa-pinterest fa-lg"></i>
+                    </p>
+                    <p>
+                        <i class="icon fab fa-twitter fa-lg"></i>
+                    </p>
+                    <p>
+                        <i class="icon fab fa-google-plus-g fa-lg"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+ </div>
+
+
+ 
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script>
+      $(".menu-toggle").on('click', function() {
+  $(this).toggleClass("on");
+  $('.menu-section').toggleClass("on");
+  $(".menu-body").toggleClass("on");
+});
+    </script>
+
+            <style>
+
+            @import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+            @font-face {
+                font-family: "Mort Modern";
+                src: url("../assets/fonts/MortModern-11Bold.otf");
+            }
+
+            * {
+              -webkit-font-smoothing: antialiased;
+            }
+                html, body {
+              width: 100%;
+              height: 100%; }
+
+            body {
+              font-size: 17px;
+              background-color: #231f20; }
+
+p {
+    margin: 0 0 3px;
+}
+
+.menu-toggle {
+    width: 30px;
+    height: 100px;
+    bottom: 45px;
+    left: 45px;
+    cursor: pointer;
+    z-index: 100;
+    position: fixed;
+}
+
+    .menu-toggle.on .one {
+        -moz-transform: rotate(45deg) translate(2px, 4px);
+        -ms-transform: rotate(45deg) translate(2px, 4px);
+        -webkit-transform: rotate(45deg) translate(2px, 4px);
+        transform: rotate(45deg) translate(3px, 4px);
+    }
+
+    .menu-toggle.on .two {
+        opacity: 0;
+    }
+
+    .menu-toggle.on .three {
+        -moz-transform: rotate(-45deg) translate(8px, -8px);
+        -ms-transform: rotate(-45deg) translate(8px, -8px);
+        -webkit-transform: rotate(-45deg) translate(8px, -8px);
+        transform: rotate(-45deg) translate(8px, -8px);
+    }
+
+.content {
+    position: absolute;
+    z-index: 1;
+    width: 80%;
+    top: 50px;
+    line-height: 20px;
+    color: black;
+}
+
+.icon {
+    background: #231f20;
+    color: #EAEAEA;
+    width: 40px;
+    margin: 7px;
+    vertical-align: center;
+    cursor: pointer;
+}
+
+.fnt {
+    font-size: 30px;
+    line-height: 5vh;
+    width: 400px;
+}
+
+.infnt {
+    text-decoration: underline;
+}
+
+.innerfnt {
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+}
+
+
+
+.socialButtons {
+    margin-left: 60px;
+}
+
+.contactus {
+    float: right;
+    margin-right: 10%;
+    margin-top: 15%;
+}
+
+#contactusButton {
+    padding: 5px 15px 8px 15px;
+    margin-bottom: 75px;
+    border: 1.5px solid #8381B7;
+    color: #8381B7;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25em;
+    font-weight: 900;
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    cursor: pointer;
+}
+
+    #contactusButton a {
+        color: #8381B7;
+        text-decoration: none;
+    }
+
+.one,
+.two,
+.three {
+    width: 100%;
+    height: 1px;
+    background: white;
+    margin: 7px auto;
+    backface-visibility: hidden;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin: 4em auto!important;
+    float: left;
+    margin-left: 200px!important;
+    font-family: "Mort Modern", "Arial", serif;
+
+}
+
+.hidden {
+    display: none;
+}
+
+nav ul a {
+    -moz-transition-duration: 0.9s;
+    -o-transition-duration: 0.9s;
+    -webkit-transition-duration: 0.9s;
+    transition-duration: 0.9s;
+    text-decoration: none;
+    color: white;
+    font-size: 2.6em!important;
+    line-height: 1.4!important;
+    width: 100%;
+    display: block!important;
+    transition: all 0.5s ease-in;
+    font-family: "Mort Modern", "Arial", serif;
+
+}
+
+    nav ul a:hover {
+          text-decoration-color: #e3e4e3;
+        text-decoration-line: line-through;
+        color: #86a1a6;
+    }
+
+.menu-section.on {
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #231f20;
+    position: fixed;
+    transition: all 0.15s ease-in;
+}
+
+.menu-body.on {
+  opacity: 1;
+    transition: opacity 0.6s linear;
+    display: block!important;
+    visibility: inherit!important;
+    color: white;
+}
+
+
+
+h3#open-pg {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    padding-left: 25px;
+    color: #bebebe;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    margin-left: -60px;
+    margin-bottom: 60px;
+    width: 150px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+              .title6 {
+                font-size: 16vh;
+                width: 30%;
+                line-height: 14.5vh;
+                float: left;
+                text-align: left;
+                color: white;
+                margin-top: 50px;
+                max-height: 200px;
+                margin-left: 0px;
+                font-family: "Mort Modern", "Arial", serif;
+            }
+
+            #side-image {
+                float: right;
+                width: 25%;
+            }
+
+            .background-expertise {
+    background-color: #231f20;
+    height: 470px;
+}
+
+            .content-expertise {
+                height: 100vh;
+                display: block;
+                justify-content: center;
+                text-align: center;
+                flex-flow: inherit;
+                vertical-align: middle;
+                color: #fff;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                padding-left: 70px;
+                padding-right: 70px;
+                padding-top: 125px;
+            }
+
+    #top-logo2 {
+    float: left;
+    margin-top: 30px;
+    margin-left: -30px;
+    width: 5%;
+}
+
+            .grid {
+              list-style: none;
+              padding: 0;
+              margin: 0;
+              min-height: 100%;
+              overflow: hidden; }
+              .grid li {
+                height: 420px;
+                color: white;
+                width: 50%;
+                display: block;
+                cursor: pointer;
+                position: relative;
+                margin: 0;
+                z-index: 0;
+                background-color: black;
+                box-shadow: none; }
+                .grid li.open {
+                  z-index: 9000; }
+                .grid li:hover {
+                  z-index: 10; }
+                  .grid li:hover .item-bg {
+                    -webkit-transform: scale(1.05);
+                    -moz-transform: scale(1.05);
+                    -ms-transform: scale(1.05);
+                    -o-transform: scale(1.05);
+                    transform: scale(1.05); }
+                  .grid li:hover .item-name h1 {
+                    -webkit-transform: translate(0, 0);
+                    -moz-transform: translate(0, 0);
+                    -ms-transform: translate(0, 0);
+                    -o-transform: translate(0, 0);
+                    transform: translate(0, 0);
+                    -webkit-transition-delay: 0s;
+                    -moz-transition-delay: 0s;
+                    transition-delay: 0s; }
+                  .grid li:hover .item-name p {
+                    opacity: 1;
+                    -webkit-transform: translate(0, 0);
+                    -moz-transform: translate(0, 0);
+                    -ms-transform: translate(0, 0);
+                    -o-transform: translate(0, 0);
+                    transform: translate(0, 0);
+                    -webkit-transition-delay: 0.1s;
+                    -moz-transition-delay: 0.1s;
+                    transition-delay: 0.1s; }
+              .grid .item-bg {
+                width: 100%;
+                height: 100%;
+                background-size: cover !important;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                -webkit-transform: scale(1);
+                -moz-transform: scale(1);
+                -ms-transform: scale(1);
+                -o-transform: scale(1);
+                transform: scale(1);
+                -webkit-transition: all 0.2s;
+                -moz-transition: all 0.2s;
+                transition: all 0.7s; }
+              .grid .item-name {
+                display: table;
+                width: 100%;
+                height: 100%;
+                text-align: center; }
+              .grid .item-name-inner {
+                display: table-cell;
+                vertical-align: middle; }
+                .grid .item-name-inner h1 {
+                  -webkit-transition: all 0.2s 0.05s;
+                  -moz-transition: all 0.2s 0.05s;
+                  transition: all 0.2s 0.05s;
+                  -webkit-transform: translate(0, 25px);
+                  -moz-transform: translate(0, 25px);
+                  -ms-transform: translate(0, 25px);
+                  -o-transform: translate(0, 25px);
+                  transform: translate(0, 25px); }
+                  .grid .item-name-inner h1 small {
+                    display: block;
+                    text-transform: uppercase;
+                    color: white;
+                    font-size: 14px;
+                    margin-bottom: 15px;
+                    font-weight: 400;
+                    letter-spacing: 0.05em; }
+                  .grid .item-name-inner h1 b {
+                    display: block;
+                    margin-bottom: 50px;
+                    font-size: 42px;
+                    font-weight: 200;
+                    font-family: "Mort Modern", "Arial", serif;
+                     }
+                .grid .item-name-inner p {
+                  font-size: 18px;
+                  font-weight: 400;
+                  border-bottom: 2px solid white;
+                  display: inline-block;
+                  padding-bottom: 8px;
+                  letter-spacing: 0.05em;
+                  opacity: 1;
+                  -webkit-transition: all 0.2s 0s;
+                  -moz-transition: all 0.2s 0s;
+                  transition: all 0.2s 0s;
+                  -webkit-transform: translate(0, 25px);
+                  -moz-transform: translate(0, 25px);
+                  -ms-transform: translate(0, 25px);
+                  -o-transform: translate(0, 25px);
+                  transform: translate(0, 25px);    
+                    font-family: 'Montserrat', sans-serif;
+              }
+
+
+
+              .grid .item-overlay {
+                opacity: 0;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                -webkit-transition: all 0.2s ease;
+                -moz-transition: all 0.2s ease;
+                transition: all 0.2s ease;
+                z-index: -1;
+                background-size: cover !important;
+                pointer-events: none;
+                cursor: default;
+                overflow: auto;
+                -webkit-overflow-scrolling: touch; }
+              .grid .item-content {
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 80px 60px 60px; }
+                .grid .item-content h2 {
+                  font-size: 60px;
+                  margin-bottom: 50px;
+                  margin-top: 0;
+                  font-family: "Mort Modern", "Arial", serif;
+                  font-weight: 200; }
+                .grid .item-content p {
+                  line-height: 1.4em;
+                  font-size: 15px;
+                  font-family: 'Montserrat', sans-serif;
+                  margin-bottom: 25px; }
+                .grid .item-content .image {
+                  display: block;
+                  margin: 50px -80px 50px; }
+                  .grid .item-content .image img {
+                    width: 100%; }
+              .grid .close {
+                cursor: pointer;
+                z-index: 1000;
+                text-shadow: none;
+                color: white;
+                font-weight: 100;
+                font-size: 90px;
+                opacity: 0.7;
+                position: fixed;
+                top: 0px;
+                right: 40px; }
+                .grid .close:hover {
+                  opacity: 1; }
+
+            .grid li:nth-child(1) .item-bg, .grid li:nth-child(1) .item-overlay {
+              background-color: #8581bb; }
+            .grid li:nth-child(2) .item-bg, .grid li:nth-child(2) .item-overlay {
+              background-color: #e8e8e8; }
+            .grid li:nth-child(3) .item-bg, .grid li:nth-child(3) .item-overlay {
+              background-color: #245442; }
+            .grid li:nth-child(4) .item-bg, .grid li:nth-child(4) .item-overlay {
+              background-color: #bec9cd; }
+      
+
+            @media only screen and (max-device-width: 768px) and (min-device-width: 320px) {
+
+.grid .item-name-inner h1 b {
+    display: block;
+    margin-bottom: 60px;
+    font-size: 49px;
+    font-weight: 200;
+    font-family: "Mort Modern", "Arial", serif;
+}
+
+      .expertise1, .expertise2, .expertise3, .expertise4 {
+                font-family: 'Montserrat', sans-serif;
+                color: #245442;
+                font-weight: 700;
+                font-size: 55px;
+                margin-left: 0px;
+            } 
+
+            .expertise2 {
+                color: black;
+            }
+
+            .expertise3 {
+                color: #8581bb ;
+                margin-top: 190px;
+            }
+
+
+            .expertise4 {
+                color: black;
+            }
+
+
+            .exp-text4, .exp-text3 {
+                padding-top: 0px;
+                float: left;
+                display: block;
+                position: relative;
+            }
+
+.menu-toggle {
+        left: 800px!important;
+        width: 60px!important;
+        position: fixed!important;
+        z-index: 100!important;
+        top: 80px!important;
+    }
+
+.togal {
+    left: 800px !important;
+    width: 60px !important;
+    position: absolute !important;
+    z-index: 100 !important;
+    top: 59px !important;
+}
+
+.menu-section.on {
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #231f20;
+}
+
+
+#open-pg {
+    display: none!important;
+}
+
+    .menu-toggle.on .one {
+     -moz-transform: rotate(45deg) translate(24px, 22px);
+    -ms-transform: rotate(45deg) translate(24px, 22px);
+    -webkit-transform: rotate(45deg) translate(24px, 22px);
+    transform: rotate(45deg) translate(24px, 22px)!important;
+    z-index: 100;
+}
+    .menu-toggle.on .three {
+    -ms-transform:rotate(-45deg) translate(8px, -10px);
+    -moz-transform:rotate(-45deg) translate(8px, -10px);  
+    -webkit-transform: rotate(-45deg) translate(8px, -10px);
+    transform: rotate(-45deg) translate(8px, -10px);
+    }
+
+    .one, .two, .three {
+    background: white;
+    height: 3px!important;
+    margin: 19px!important;
+    width: 90px;
+    backface-visibility: hidden;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+nav ul a {
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    color: white;
+    font-size: 65px!important;
+    line-height: 2.1!important;
+    width: 100%;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    display: block;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+
+}
+
+
+.contactus {
+    float: left!important;
+    margin-right: 10%;
+    margin-top: 4%!important;
+    width: 95%;
+}
+
+#contactusButton {
+    -webkit-transform: rotate(0deg)!important;
+    -moz-transform: rotate(0deg)!important;
+    -o-transform: rotate(0deg)!important;
+    -ms-transform: rotate(0deg)!important;
+    display: block!important;
+    float: right!important;
+    text-align: center!important;
+    padding: 25px 45px 28px 45px!important;
+    font-size: 3.1em!important;
+    border: 7px solid #8381B7!important;
+}
+
+.socialButtons {
+    width: 500px;
+    margin-left: 50px!important;
+    margin-top: 35px!important;
+}
+
+nav ul {
+    float: inherit!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    display: block!important;
+    text-align: center!important;
+    position: relative!important;
+    margin-top: 170px!important;
+}
+
+}
+
+
+
+            @media (max-width: 992px) {
+              .grid .item-content {
+                padding: 40px; }
+                .grid .item-content .image {
+                  margin-left: 0;
+                  margin-right: 0; } }
+            @media (max-width: 768px) {
+              .grid .item-content {
+                padding: 40px 30px; }
+                .grid .item-content h2 {
+                  font-size: 18px;
+                  font-family: 'Montserrat', sans-serif;
+                  margin-bottom: 30px;
+                  margin-top: 0;
+                  font-weight: 600; }
+                  .grid .item-content p {
+                    font-family: 'Montserrat', sans-serif;
+                    margin-bottom: 25px;
+                    line-height: 3.5vh;
+                }
+                .grid .item-content .image {
+                  margin: 30px 0; }
+              .grid .close {
+                font-size: 50px;
+                top: 0px;
+                right: 30px;
+                font-weight: 200; } 
+
+                .content-expertise {
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    padding-top: 105px;
+                }
+
+                #top-logo2 {
+                        float: left;
+                        margin-top: 30px;
+                        margin-left: 0px;
+                        width: 13%;
+                    }
+
+                 .title6 {
+                    font-size: 10vh;
+                    width: 30%;
+                    line-height: 10.5vh;
+                    float: left;
+                    text-align: left;
+                    color: white;
+                    margin-top: 160px;
+                    max-height: 200px;
+                    margin-left: 0px;
+                    font-family: "Mort Modern", "Arial", serif;
+                }
+
+                #side-image {
+                    /* float: right; */
+                    width: 45%;
+                    /* margin-left: 145px; */
+                    display: block;
+                    position: absolute;
+                    margin-left: 80px;
+                    margin-right: auto;
+                    text-align: center;
+                }
+
+                .grid li {
+                    width: 100%;
+                }
+
+        
+
+
+            }
+
+
+            </style>
+
+
+
+
+            <div class="container" style="height:470px;">
+                <a href="http://test.madhouseinc.com/beta7"><img class="logo" id="top-logo2" src="assets/img/logohome3.png"></a>
+                <section class="content-expertise background-expertise">
+                    <h1 class="title6 content-title" style="color: #dddddd;">Our <br>Expertise</h1>
+                    <div>
+                        <img id="side-image" class="trophy" src="assets/img/trophy.png">
+                    </div>
+                </section>
+            </div>
+
+    <ul class="grid clearfix">
+      <li class="col-sm-4 item-1">
+        <div class="item-bg"></div>
+        <div class="item-name">
+          <div class="item-name-inner">
+            <h1>
+              <b>Strategy</b>
+            </h1>
+            <p>
+              Read More
+            </p>
+          </div>
+        </div>
+        <div class="item-overlay">
+          <span class="close">&times;</span>
+          <div class="item-content">
+                <h2 class="exp-title expertise1">Strategy</h2>
+                <p class="exp-desc exp-text1 strat">We approach Strategy as an Organizational Architecture first. A visual schematic. A blueprint that defines the model, each of its products, units or entities, and its common denominator. This serves as the foundation from which all planning, development and execution come. Equal parts art and science, for us, Strategy is the intersection of insights and vision. We believe enterprise value ultimately comes from an organic purpose that transcends everything you do.<br><br>Our Strategic Planning Practice includes market analysis, trend and cultural assessments, strategic mapping and brand positioning, product development, monetization, organic and non-organic growth areas.</p>
+          </div>
+        </div>
+
+      </li>
+      <li class="col-sm-4 item-2">
+        <div class="item-bg"></div>
+        <div class="item-name">
+          <div class="item-name-inner">
+            <h1 class="brand" style="color:#285440">
+              <b>Brand Platforms</b>
+            </h1>
+            <p class="rd2" style="color:#285440; border-bottom: 2px solid #285440;">
+              Read More
+            </p>
+          </div>
+        </div>
+        <div class="item-overlay">
+          <span class="close">&times;</span>
+          <div class="item-content">
+                <h2 class="exp-title expertise2" style="color:#285440">Brand <br class="mobileno">Platforms</h2>
+                <p class="exp-desc exp-text2 strat" style="color:#285440">We believe the brand is a platform itself. It interacts with the world. It develops relationships with customers. It is an emotional, evolving asset. It is the intagible and often most valuable aspect of an enterprise. Like all strong foundations, a solid brand platform is built on a higher purpose. It articulates what it stands for, how it behaves, why it exists, to whom it is relevant and why anyone should care. Our approach to brand platform development is to ultimately determine a brand's unique place in the world.<br><br>Our Brand Platform Practice includes the development of an organizing idea, archetype, identity model, narrative and brand experience.</p>
+          </div>
+        </div>
+      </li>
+      
+  
+
+      <li class="col-sm-4 item-6">
+        <div class="item-bg"></div>
+        <div class="item-name">
+          <div class="item-name-inner">
+            <h1 class="creative" style="color:#8580c0">
+              <b>Creative & Campaign<br>Development</b>
+            </h1>
+            <p class="rd3" style="color:#8580c0; border-bottom: 2px solid #8580c0;">
+              Read More
+            </p>
+          </div>
+        </div>
+        <div class="item-overlay">
+          <span class="close">&times;</span>
+          <div class="item-content">
+            <h2 class="exp-title expertise3" style="color:#8580c0">Creative<br class="mobileno"> & Campaign<br> Development</h2>
+                <p class="exp-desc exp-text4 strat" style="color:#8580c0">We believe creativity and purpose manifest the impossible. And authenticity grounds the shared human experience. Therefore, for us, creative is simply the articulation of a strong strategy, meticulously distilled. In various physical and virtual experiences. And it is human. It is meant to connect. To make people feel. To inspire. To compel.<br><br>Our Creative Development Practice includes conceptual development, campaign development, go-to-market strategies, design, film, digital and social platforms, web applications, brand guidelines and marketing and strategic communications.</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="col-sm-4 item-7">
+        <div class="item-bg"></div>
+        <div class="item-name">
+          <div class="item-name-inner">
+            <h1 class="digital" style="color:black">
+              <b>Digital Marketing <br>& Techonology Design</b>
+            </h1>
+            <p class="rd4" style="color:black; border-bottom: 2px solid black;">
+              Read More
+            </p>
+          </div>
+        </div>
+        <div class="item-overlay">
+          <span class="close">&times;</span>
+          <div class="item-content">
+            <h2 class="exp-title expertise4" style="color:black">Digital Marketing &<br class="mobileno"> Technology Design</h2>
+                <p class="exp-desc exp-text4 strat" style="color:black">Deep learning and algorithmic brand development aren't tools for some distant future - they are happening now. Insight led by the ever growing data infrastructure and frictionless accessibility. We understand that Technology has the capacity to push our thinking, our boundaries, our culture. It helps organizations do new things, leverage competitive advantages and add value. It is transforamtive. However, technology itself, like data itself, has little meaning or application without purpose and appropriate integrations. And there is a difference between employing and exploiting technology for what it does well, and being an enterprise that creates technology.<br><br>At Madhouse, we curate technology solutions that drive transactions. Because we believe technology has become a requisite in today's planning process. A vital element for future proofing. We view technology as a tool form which we drive insights that advance strategy, brand and creative. And we partner with companies and emerging technologies that build useful tech stacks for our clients.</p>
+            
+          </div>
+        </div>
+      </li>
+      
+    </ul>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <script src="js/main.js"></script>
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Thinking</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <style>
+        /*image*/
+    .mobile{
+ 	display: none;
+     }
+    
+    .desktop {
+        display: block;
+    }
+
+    .content {
+    position: absolute;
+    z-index: 1;
+    width: 80%;
+    /* top: 100px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 20px;
+    color: black;
+    }
+
+    .padding-blocks {
+        padding-right: 120px;
+        padding-left: 120px;
+    }
+
+    .block-main > .block_a {
+    width: 50%;
+    float: left;
+    height: 50%;
+    min-height: 420px;
+    transition: all 0.5s ease-in;
+    }
+
+    .infnt {
+        color: #908ebf;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+    }
+
+    .innerfnt {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13.5px;
+    line-height: 3.9vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+
+    }
+
+    .boton {
+    border: 1px solid #908ebf;
+    padding: 6px 19px;
+    color: #908ebf;
+    cursor: pointer;
+    float: left;
+    position: relative;
+    font-size: 15px;
+    }
+
+    .block-main > .block_a .block-box {
+        justify-content: normal;
+        padding-top: 50px;
+    }
+
+       .block-main > .block_a.about.block-expanded-item {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+    }
+
+     .block-main > .block_a.works.block-expanded-item {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+     .block-main > .block_a.blog.block-expanded-item {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+         .block-main > .block_a.contact.block-expanded-item {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+    .block-main > .block.about {
+        background-color: #e8e8e8;
+    }
+
+     .block-main > .block.works {
+        background-color: #e8e8e8;
+    }
+
+     .block-main > .block.blog {
+        background-color: #e8e8e8;
+    }
+
+     .block-main > .block.contact {
+        background-color: #e8e8e8;
+    }
+
+    .block-main > .block_a.about.block-expanded-item {
+    background: white;
+    color: black;
+    }
+
+    .exp-desc {
+    width: 80%;
+    display: block;
+    padding-left: 0px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    line-height: 1.8;
+    font-size: 12px;
+}
+
+    .block-main > .block_a .block-content {
+        overflow-y: hidden;
+        top:40px;
+    }
+
+    .close1::before, .close1::after {
+    background: black;
+}
+
+	@media only screen and (max-width: 320px) {
+    .mobile {
+        display: block!important;
+        
+    }
+	.desktop {
+        display: none!important;
+        
+    }
+}
+        @media only screen and (min-device-width:320px) and (max-device-width:768px) {
+            .togal {
+                left: 800px !important;
+                width: 60px !important;
+                position: absolute !important;
+                z-index: 100 !important;
+                top: 59px !important;
+            }
+
+
+             .mobile {
+        display: block!important;
+        
+    }
+	.desktop {
+        display: none!important;
+        
+    }
+
+
+            .block-main > .block_a {
+                width: 100%;
+                float: left;
+                height: 43%;
+                min-height: 330px;
+                transition: all 0.5s ease-in;
+            }
+
+            .background-expertise {
+                background-color: #231f20;
+                height: 770px !important;
+            }
+
+            .title6 {
+                font-size: 6.5vh !important;
+                width: 30%;
+                line-height: 8.5vh;
+                float: left;
+                text-align: left;
+                color: white;
+                margin-top: 64px !important;
+                margin-left: -60px !important;
+            }
+
+            .logo {
+                float: left;
+                margin-top: 30px;
+                margin-left: 30px;
+                width: 15% !important;
+            }
+
+            .content {
+                position: absolute;
+                z-index: 1;
+                width: 95% !important;
+                top: 50px;
+                line-height: 53px !important;
+            }
+
+            .innerfnt {
+                font-family: Arial,sans-serif;
+                font-size: 35px !important;
+            }
+
+           .boton {
+                border: 3px solid #908ebf;
+                padding: 20px 55px;
+                text-align: center;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                cursor: pointer;
+                font-size: 40px !important;
+            }
+
+            .background-thinking {
+                background-color: #bec9cd;
+                height: 640px !important;
+            }
+
+            .padding-blocks {
+                padding-right: 60px;
+                padding-left: 60px;
+            }
+
+            .fnt {
+                font-size: 70px;
+                line-height: 5vh;
+                width: 700px;
+                display: block;
+                position: relative;
+            }
+           
+            .innerfnt {
+                font-family: Arial,sans-serif;
+                display: block;
+                overflow: hidden;
+                height: 200px;
+                font-size: 45px !important;
+            }
+
+            .block-main > .block_a .block-box {
+                padding-bottom: 200px;
+            }
+
+            .infnt {
+                font-size: 35px;
+            }
+
+            .one, .two, .three {
+                background: #295541!important;
+                height: 3px!important;
+                margin: 19px!important;
+                width: 90px;
+            }
+
+            .mobile-img {
+                    width: 100%;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    position: absolute;
+                    top: 140px;
+            }
+
+            .mobile-img2 {
+                width: 100%;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    position: absolute;
+                    top:0;
+                }
+
+            .backg, .mobilehg {
+                height: 30%!important;
+            }
+
+            .mobilehg2 {
+                 height: 30%!important;
+                 margin-top:50px!important; 
+            }
+
+         }
+    </style>
+</head>
+<body style="background-color:#bec9cd;">
+    
+
+    <div class="menu-section">
+        <div class="menu-toggle togal" id="logo-scroll">
+            <h3 id="open-pg" style="color:#245442;  font-family: 'Montserrat', sans-serif;">Our Thinking</h3>
+            <div id="lines-menu">
+                <div style=" background-color:#245442;" class="one"></div>
+                <div style=" background-color:#245442;" class="two"></div>
+                <div style=" background-color:#245442;" class="three"></div>
+            </div>
+        </div>
+        <div class="menu-body hidden">
+            <nav>
+                <ul role="navigation">
+                    <li><a href="index.html">Who Are We</a></li>
+                    <li><a href="index.html">What Do We Stand For</a></li>
+                    <li><a href="index.html">Why Should You Care</a></li>
+                    <li><a href="process.html">Our Process</a></li>
+                    <li><a href="expertise.html">Our Expertise</a></li>
+                    <li><a href="thinking.html">Our Thinking</a></li>
+                    <li><a href="clients.html">Our Clients</a></li>
+                    <li><a href="author.html">About the Author</a></li>
+                </ul>
+            </nav>
+            <div class="contactus">
+                <p id="contactusButton">
+                    <a href="Contact.html">Contact Us</a>
+                </p>
+                <div class="socialButtons">
+                    <p>
+                        <i class="icon fab fa-facebook-square fa-lg"></i>
+                    </p>
+                    <p>
+                        <i class="icon fab fa-linkedin-square fa-lg"></i>
+                    </p>
+                    <p>
+                        <i class="icon fab fa-pinterest fa-lg"></i>
+                    </p>
+                    <p>
+                        <i class="icon fab fa-twitter fa-lg"></i>
+                    </p>
+                    <p>
+                        <i class="icon fab fa-google-plus-g fa-lg"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+         $(".menu-toggle").on('click', function () {
+            $(this).toggleClass("on");
+            $('.menu-section').toggleClass("on");
+            $(".menu-body").toggle();
+        });
+    </script>
+  
+
+    <div class="container">
+        <a href="http://test.madhouseinc.com/beta7"><img class="logo" id="top-logo2" src="assets/img/logohome4.png"></a>
+    </div>
+    <section class="content-thinking background-thinking" style="background-color: #bec9cd;">
+
+        <h1 class="title6 content-title" style="color: black;">Our <br>Thinking</h1>
+    </section>
+    
+    <div id="block-main" class="block-main padding-blocks">
+        <section class="block_a mobilehg backg">
+            <div class="block-box cton">
+
+                <span><img class="mobile-img" src="assets/img/think.png" style="width:100%;" /></span>
+            </div>
+            
+        </section>
+        
+        <section class="block block_a about">
+            <div class="content block-box">
+                    <h2 class="fnt">20/20/20 Vision</h2>
+                    <h2 class="infnt"><a style="text-decoration: none; color:#908ebf;" href="author.html">By Michael D'Antonio</a></h2><br />
+                    <span class="innerfnt">Vision is a difficult thing. It is perhaps the single most important ingredient to success in business. It is what makes good ideas great and great brands famous. Yet, it is rare, often misunderstood,...</span>
+                    <p class="boton">Read More</p>
+                
+            </div>
+            <div class="block-content">
+                <h2 class="fnt">20/20/20 Vision</h2>
+                <h2 class="infnt">By Michael D'Antonio</h2>
+                <p class="exp-desc exp-text2">Vision is a difficult thing. It is perhaps the single most important ingredient to success in business. It is what makes good ideas great and great brands famous. Yet, it is rare, often misunderstood, and at times, even villified and run out of town. We all admire a few of the canonized default-heroes like Jobs and Hsieh, but rarely do we find that kind of vision on display in our own organizations, core teams and break out rooms.<br><br>So the question is...why? One answer is that you can't teach vision. It is a skill you cannot coach. Like a world-class musician or an elite athlete, you can chalk it up to God-given talent - a freakish natural ability that comes along once or twice in a generation in the form of a Bezos or Branson. While that may be true, it feels too easy and far too cynical for us. Sure, there are those natural born visionaries and extraordinary folks that will always be the super nova luminaries in the industry, and thank goodness for them.<br><br>But for the rest of us mere mortals, can we learn vision? Can we develop vision? I believe so. I believe that every creative thinker, every manager, every executive and every junior can develop vision skills much like they can develop presentation skills. They may never be Steve Jobs - in fact, we are pretty sure they won't be. But it is a travesty that most companies and organizations put virtually no effort or energy behind vision. They spend more time teaching about the email system than having a vision for the brand. This seems incredibly (and pardon the pun) shortsighted.<br><br>At Madhouse, we believe in 20/20/20 Vision. This is our model for teaching the core discipline, so it permeates throughout an organization. There are three simple steps to 20/20/20 Vision.<br><br><b>First</b> - 20 Questions.  Sometimes the simplest things are the hardest. The first reason most never develop vision is because we don’t ask enough questions.  We choose the path of least resistance. We don’t like conflict. We hear what we want to hear. And we get it as quickly and painlessly as possible. So…ask questions until you have completely run out of ways to ask them. Then…ask different ones.<br><br><b>Second</b> – dedicate 20% of your time to developing a vision for your brand. This has to be a consistent priority. That is, spend 8 hours of a 40-hour workweek dedicated to the vision of the brand, on things like developing core principles and values, creating white space heat maps, challenging preconceived notions and sacred cows and proactively tearing down conventional structures that get in the way of that core vision.<br><br><b>Third</b> – 20 independent advisors. Build a list of 20 smart people who are completely outside of your industry/sector/space. Meet with each of them at least once a year via a face-to-face meeting, conference call, coffee, informal chat but no email.  Simply select 20 people you admire who have no connection to what you do or to your brand, and this will become your Board of the Future. Bring one problem to each of these conversations and then listen. That is all – just listen. Trust us, doors will open and ideas will flourish. The combination of brainpower, intuition, common sense and outside perspective these 20 people will bring will be invaluable to developing, maintaining and protecting your vision.</p>
+
+
+
+
+            </div>
+            <span class="block-icon-close"><span class="close hairline close1"></span></span>
+        </section>
+        
+        <section class=" block_a mobilehg2 contact mobile">
+            <div class="block-box back">
+                <span><img class="mobile-img2" src="assets/img/pic.png" style="width:100%;" /></span>
+            </div>
+      
+        </section>
+        <section class="block block_a works">
+            <div class="content block-box">
+                    <h2 class="fnt">Innovation. Easier<br />Said Than Done.</h2>
+                    <h2 class="infnt"><a style="text-decoration: none; color:#908ebf;" href="author.html">By Michael D'Antonio</a></h2><br />
+                    <span class="innerfnt">There has been much written about start-ups, entrepreneurs and companies such as Google, Facebook and Twitter driving most of the innovation in America. In fact, the National...</span>
+                    <p class="boton">Read More</p>
+            </div>
+            <div class="block-content">
+                <h2 class="fnt">Innovation. Easier Said Than Done</h2>
+                <h2 class="infnt">By Michael D'Antonio</h2>
+                <p class="exp-desc exp-text2">There has been much written about start-ups, entrepreneurs and companies such as Google, Facebook and Twitter driving most of the innovation in America. In fact, the National Science Foundation documents only about 9% of all U.S. companies innovate. Experts further explain, in and of itself, this information technology-based innovation has not led to the manufacturing of innovative products – in either industrial or consumer products, bioscience, nanotechnology or the alternative energy spaces. In other words, our significant investment in innovation has not led to a commensurate amount of “valuable” output. As a result, it has produced sluggish job creation, real declines in income, an increasing trade deficit and overall, anemic growth.<br><br>Truth is, America’s rise to the top of the economic food chain – albeit innovative and valuable – was built on the scale of production efficiencies. Our recent humbling economic experience has only reinforced such measures. Further, even as most large American companies conflate globalization and efficiencies with true innovation, there is little argument that building stuff is the foundation from which our great prosperity has come. However, while all of this may be jeopardizing America’s status as the world’s leader in traditional economic value, it is important to understand that economies, like countries and businesses, evolve. It is how we develop through this maturation cycle that will ultimately decide our fate.<br><br>Trained in the value of efficiencies, we are taught the pillars of success are titles, awards and profits. Companies, like individuals, are graded on such metrics. Have you ever wondered why organizations have so many sovereign departments – all with independent yet interdependent objectives?  Why so many people are apprehensive to do things differently within this hierarchical construct? We learn to be good at something. We become specialized and masters of our domain. We pad our pocketbooks. This ferments in silos and is reinforced by habit and acceptance. But, all too often it manifests into close-mindedness – protecting all that challenge it.<br><br>Innovation is a perspective – a way of life. It is about a process, not the product it ultimately yields. It is fueled by participation, not approval. It chooses the path of most resistance. It seeks uncomfortableness and embraces weakness. It is inspired by passion and sustained by resolve. It lives by the notion that good is never good enough. It is non-linear. Its dynamic path ebbs and flows and adapts to new generations, environments and problems. Like change, it is contrary to conventional wisdom and corporate and social culture. It threatens human truths and innate human instincts. No wonder why it is so damn hard.<br><br>Often the best ideas are the most ridiculous. Usually they are counterintuitive. New approaches to handle traditional needs appear ignorant. They defy common logic and the status quo. They are immediately rebuffed, constantly denounced and given an unlimited number of reasons for failure – in fact, they almost always fail. But, innovation is learning by trying, ideating and making – and failure is an unfortunate requisite for change. It teaches us, builds character and serves as the compass for a direction not yet traveled. For those who innovate, they have learned one vital lesson; above all else, you can never – ever – lose the faith.<br><br>The new digital landscape has provided an infinite number of platforms for us to explore. Unlike our predecessors who produced the great American Industrial Revolution, current generations now have the ability to gain immediate access to global perspectives and learn how to learn on their own. Knowledge and education, the mother of all innovation, has been democratized for all.<br><br>It is true, information technology innovation may not directly generate new widget factories in a neighborhood near you and we do need to make more stuff once again. However, companies such as Google, Facebook and Twitter constantly innovate as a result of their culture – because they plant the seeds of ingenuity – which is the foundation for many more American revolutions indeed.</p>
+
+            </div>
+            <span class="block-icon-close"><span class="close hairline close1"></span></span>
+        </section>
+        <section class=" block_a mobilehg2 contact desktop">
+            <div class="block-box back">
+                <span class=""><img  class="mobile-img2" src="assets/img/pic.png" style="width:100%;" /></span>
+            </div>
+        
+        </section>
+
+        <section class="block_a mobilehg2 backg">
+            <div class="block-box back1">
+
+                <span class="think"><img src="assets/img/2.png"></span>
+            </div>
+            
+        </section>
+        <section class="block block_a works">
+            <div class="content block-box">
+                    <h2 class="fnt">A Simple Plan</h2>
+                    <h2 class="infnt"><a style="text-decoration: none; color: #908ebf;" href="author.html">By Michael D'Antonio</a></h2><br />
+                    <span class="innerfnt">As the discipline of "Planning" emerged in our industry in the mid-90's, so did the infrastructure of the Planning Department. It has traditionally been reserved for the highly cognitive individual...</span>
+                    <p class="boton">Read More</p>
+            </div>
+            <div class="block-content">
+               <h2 class="fnt">A Simple Plan</h2>
+                <h2 class="infnt">By Michael D'Antonio</h2>
+                <p class="exp-desc exp-text2">As the discipline of “Planning” emerged in our industry in the mid-90’s, so did the infrastructure of the Planning Department. It has traditionally been reserved for the highly cognitive individual, usually yielding cerebral or trite presentations. Like many specialties and specialists, I’m convinced some things are intentionally done to preserve their integrity or their value in the food chain.<br><br>At its core, planning is simply the process of discovering and developing business, product, consumer and cultural insights that can lead to the development of a knowledge-based brand strategy and/or foundation from which everything follows. This should lead to a brand’s purpose and ultimately effective creative. There are many tools to this trade that may or may not resemble Planning’s precursor, Research, but no matter how planning is approached or applied, it is almost always housed in its own unit – its own fiefdom, silo or vertical on the agency value chain.<br><br>This current model is closer to an antiquated rust belt assembly line than a rapid prototype workflow model one may find in the workspaces at Palo Alto. Presently, the Planning Department “does the planning,” and then hands over some sort of artifact to another department to act upon. This artifact may take many different forms – a brief, an insight doc, a planogram – but it is always essentially an input that is dropped off by the planning department for further workflow. This is very much a system Henry Ford would recognize and very much a system Jeff Bezos would blow-up sight unseen.<br><br>Perhaps it would make more sense to model the planning disciplines after other creative businesses where intellectual capital, innovation and speed-to-maker reign supreme – like software development or e-commerce – instead of modeling it after the linear manufacturing process of durable goods. In doing so, we wouldn’t have a planning department. Instead, we would have cross-functional innovation cells comprised of forward-thinking individuals across multiple agency disciplines whether it be creative, account services, experience planners, social media experts, etc. This would allow for a richer, broader exchange of ideas, thus increasing the scope of intellectual capital without incremental overhead through additional hires.<br><br>It would also allow for instinct, common sense and intuition to have a role in the process – things that have been instituted out of the current planning process. Over time, planning departments, like many departments, have become insular. They have become ghettoized as certain ideas, language and processes have become sacrosanct and others have become unthinkable, as a tribe mentality has exerted a fundamental “this is how we do it” code of conduct over professionals that were originally hired to be original thinkers.<br><br>Cross-functional innovation cells are faster and more fearless. They are also more modern and more successful. From Apple to Etsy and Pixar to Pandora, we see this model arise time and time again. In the tech sector, it is called innovation. The core of planning has not changed – gaining strong insights to develop great output – and it has never been more important or more relevant. What has changed is the way planning should be executed. In a dynamic, multivariate and non-linear world, we are still planning like we live and work on an assemble line. My advice – we need a better plan.</p>
+            </div>
+            <span class="block-icon-close"><span class="close hairline close1"></span></span>
+        </section>
+    </div>
+
+
+</body>
+
+    <script>
+        (function () {
+
+             'use strict';
+      
+
+            var blockMain = document.getElementById('block-main');
+            var blocks = blockMain.getElementsByClassName('block');
+
+            Array.prototype.forEach.call(blocks, function (block) {
+                block.dataset.open = false;
+                block.children[0].children[4].addEventListener('click', function (e) {
+                    var closeButton = block.getElementsByClassName('block-icon-close')[0];
+
+                    if (block.dataset.open === 'false') {
+                        block.dataset.open = 'true';
+                        block.classList.add('block-expanded-item');
+                        blockMain.classList.add('block-expanded');
+                    }
+
+                    closeButton.addEventListener('click', function (e) {
+                        e.stopPropagation();
+                        block.dataset.open = 'false';
+                        block.classList.remove('block-expanded-item');
+                        blockMain.classList.remove('block-expanded');
+                    });
+                });
+            });
+        })();
+    </script>
+
+
+</html>

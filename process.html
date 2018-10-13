@@ -1,0 +1,396 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Process</title>
+    <link rel="stylesheet" href="css/resposive.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @media only screen and (max-device-width: 480px) and (min-device-width: 320px) {
+            .logo {
+                padding-top: 30px !important;
+            }
+
+            #side-text4 {
+                float: right;
+                width: 37%;
+                line-height: 3.5vh !important;
+                text-align: left;
+                font-weight: 900;
+                color: black;
+                font-size: 14px;
+                margin-top: -140px !important;
+                letter-spacing: -0.6px;
+            }
+
+            .title5 {
+                font-size: 8.5vh !important;
+                width: 30%;
+                line-height: 8.5vh !important;
+                float: left;
+                text-align: left;
+            }
+        }
+
+        @media only screen and (max-device-width:360px) {
+            .logo {
+                float: left;
+                margin-top: 0px !important;
+                margin-left: 30px !important;
+                width: 15% !important;
+            }
+        }
+
+        @media only screen and (max-device-width:411px) {
+            .logo {
+                float: left;
+                margin-top: 0px !important;
+                margin-left: 30px !important;
+                width: 15% !important;
+            }
+        }
+
+        @media only screen and (max-device-width:768px) {
+            .logo {
+                float: left;
+                margin-top: 0px !important;
+                margin-left: 30px !important;
+                width: 15% !important;
+            }
+
+            #side-text4 {
+                float: right;
+                text-align:left;
+                width: 100% !important;
+                line-height: 2.5vh !important;
+                text-align: left;
+                font-weight: 900;
+                color: black;
+                font-size: 18px !important;
+                margin-top: 20px !important;
+                letter-spacing: -0.6px;
+            }
+        }
+
+
+        @media only screen and (max-device-width:1024px) {
+            .logo {
+                padding-top: 30px !important;
+            }
+
+            #side-text4 {
+                float: right;
+                width: 37%;
+                line-height: 3.5vh !important;
+                text-align: left;
+                font-weight: 900;
+                color: black;
+                font-size: 14px;
+                margin-top: -140px !important;
+                letter-spacing: -0.6px;
+            }
+
+            .title5 {
+                font-size: 8.5vh !important;
+                width: 30%;
+                line-height: 8.5vh !important;
+                float: left;
+                text-align: left;
+            }
+
+            #side-text4 {
+                float: right;
+                width: 100% !important;
+                line-height: 2.5vh !important;
+                text-align: left;
+                font-weight: 900;
+                color: black;
+                font-size: 18px;
+                margin-top: 20px !important;
+                letter-spacing: -0.6px;
+            }
+
+            .togal {
+                left: 800px !important;
+                width: 60px !important;
+                position: absolute !important;
+                z-index: 100 !important;
+                top: 59px !important;
+            }
+
+            #open-pg {
+                display: none !important;
+            }
+
+            .one, .two, .three {
+                width: 100%;
+                height: 1px;
+                background: #dddddd !important;
+                margin: 6px auto;
+                backface-visibility: hidden;
+                -moz-transition-duration: 0.3s;
+                -o-transition-duration: 0.3s;
+                -webkit-transition-duration: 0.3s;
+                transition-duration: 0.3s;
+            }
+        }
+    </style>
+    <div class="menu-section">
+        <div class="menu-toggle togal" id="logo-scroll">
+            <h3 id="open-pg" style="color:#bebebe;  font-family: 'Montserrat', sans-serif;">Our Process</h3>
+            <div id="lines-menu">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+            </div>
+        </div>
+        <nav>
+            <ul role="navigation" class="hidden">
+                <li><a href="index.html">Who Are We</a></li>
+                <li><a href="index.html">What Do We Stand For</a></li>
+                <li><a href="index.html">Why Should You Care</a></li>
+                <li><a href="process.html">Our Process</a></li>
+                <li><a href="expertise.html">Our Expertise</a></li>
+                <li><a href="thinking.html">Our Thinking</a></li>
+                <li><a href="clients.html">Our Clients</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <style>
+        a:hover, a:focus {
+            text-decoration: none;
+            color: white;
+        }
+
+        img.arrow-open:hover {
+            cursor: pointer;
+        }
+    </style>
+
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script>
+        $(".menu-toggle").on('click', function () {
+            $(this).toggleClass("on");
+            $('.menu-section').toggleClass("on");
+            $("nav ul").toggleClass('hidden');
+        });
+    </script>
+
+</head>
+<body>
+    <div class="container-fluid" style="padding-left: -15px; padding-right:-15px;">
+        <a href="http://test.madhouseinc.com/"><img class="logo" id="top-logo2" src="assets/img/logohome2.png"></a>
+        <section class="content-process background-process">
+            <h1 class="title5 content-title" style="color: #dddddd;">Our Process <span style="color: #8480ba;">Break To Build</span></h1>
+            <div>
+                <p id="side-text4">
+                    Our process is built on the premise that in order to arrive at the right answers, you must ask the right questions. So we question everything.
+                    <br><br>
+                    And in doing so, we empower organizations to break bad habits. Break from routine. Break away from the way things have always been done, from conventional wisdom and industry norms. So you can develop a unique identity in the world; grow, thrive and flourish.
+                    <br><br>
+                    Our process is rigorous, data-driven and unapologetic. No foundation is sacred. No assumption is given. So we challenge. We scrutinize. We bring an unfettered, unfiltered, outside perspective. And while we have the highest respect for all of our clients, we are not afraid to be brutally honest in order to achieve the best solution.
+                    <br><br>
+                    Because we believe barriers must be broken before building can begin.
+                </p>
+            </div>
+        </section>
+        <section>
+            <div class="row">
+                <div id="container-steps">
+                    <div class="col-xs-3 pl-0 step1 ">
+                        <img class="imgstep" src="assets/img/step1.png">
+                        <h2 class="no1">01.</h2>
+                        <h3 class="sub1">Discovery/<br>Inputs</h3>
+                        <div class="process-section">
+                            <div class="process-toggle">
+                                <img class="arrow-open" src="assets/img/arrow-sm.png">
+                            </div>
+                            <div class="popup1 hidden">
+                                <a href="http://test.madhouseinc.com/"><img class="logo" id="top-logo2" src="assets/img/logohome3.png"></a>
+                                    <!--<img class="popup-img" src="http://test.madhouseinc.com/assets/img/step1.png">-->
+                                    <div class="popup-side">
+                                        <!--<h3 class="pr-no1 pr-no">01.</h3>
+            <h2 class="pr1 pr">Discovery/ <br>Inputs</h2>-->
+                                        <!--<hr style="width: 555px; background-color: #255543; float:left; height:1.8px; border:none;">-->
+                                        <p class="process-desc desc1" style="color:#fff;">
+                                            In this phase we devour data, intelligence and information. We conduct onsite ethnographic interviews, we break ice, walls and ground in order to understand the organization and produce comprehensive industry/competitive report that exposes opportunities to break the conventional wisdom of the category. The goal of this phase is to gather all relevant business, financial, operational, infrastructural, competitive and cultural inputs and assumptions and develop insights that break the way things have always been done.
+                                        </p>
+                                    </div>
+</div>
+                        </div>
+                    </div>
+                    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+                    <script>
+                        $(document).ready(function () {
+                            $(".process-toggle").on('click', function () {
+
+                                $(this).toggleClass("on");
+                                $('.process-section').toggleClass("on");
+                                $(".popup1").toggleClass('hidden');
+
+                            });
+                        });
+                    </script>
+                    <div class="col-xs-3 step2">
+                        <img class="imgstep" src="assets/img/step2.png">
+                        <h2 class="no2">02.</h2>
+                        <h3 class="sub2">Brand <br>Interrogation</h3>
+                        <div class="process-section2">
+                            <div class="process-toggle2">
+                                <img class="arrow-open" src="assets/img/arrow-sm.png">
+                            </div>
+                            <div class="popup2 hidden">
+                                <a href="http://test.madhouseinc.com/"><img class="logo" id="top-logo2" src="assets/img/logohome4.png"></a>
+                                <!--<img class="popup-img" src="http://test.madhouseinc.com/assets/img/step2.png">-->
+                                <div class="popup-side2">
+                                    <!--<h3 class="pr-no2 pr-no">02.</h3>
+                                    <h2 class="pr2 pr">Brand/ <br>Interrogation</h2>-->
+                                    <!--<hr style="width: 555px; background-color: white; float:left; height:1.8px; border:none;">-->
+                                    <p class="process-desc desc2">
+                                        In this phase we unapologetically interrogate, question and challenge the assumptions, routines, and generally accepted principles of the organization. The goal intent here is quite simple: to question and challenge every input we gather in the Discovery Phase.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+                    <script>
+                        $(document).ready(function () {
+                            $(".process-toggle2").on('click', function () {
+
+                                $(this).toggleClass("on");
+                                $('.process-section2').toggleClass("on");
+                                $(".popup2").toggleClass('hidden');
+
+                            });
+                        });
+                    </script>
+
+                    <div class="col-xs-3 step3">
+                        <img class="imgstep" src="assets/img/step3.png">
+                        <h2 class="no3">03.</h2>
+                        <h3 class="sub3">Deep <br>Dives</h3>
+                        <div class="process-section3">
+                            <div class="process-toggle3">
+                                <img class="arrow-open" src="assets/img/arrow-sm.png">
+                            </div>
+                            <div class="popup3 hidden">
+                                <a href="http://test.madhouseinc.com/"><img class="logo" id="top-logo2" src="assets/img/logohome5.png"></a>
+                                <!--<img class="popup-img" src="http://test.madhouseinc.com/assets/img/step3.png">-->
+                                <div class="popup-side3">
+                                    <!--<h3 class="pr-no3 pr-no">03.</h3>
+                                    <h2 class="pr3 pr">Deep <br>Dives</h2>
+                                    <hr style="width: 555px; background-color: white; float:left; height:1.8px; border:none;">-->
+                                    <p class="process-desc desc3">
+                                        Based on the discovery/interrogation phases, we create a series of specific break deep dives. These are designed to ladder thinking, open avenues for innovation, challenge conventional wisdom and problem solve in a dynamic way for a specific area/sector of the organization such as finance, operations, HR or a specific business unit or subsidiary. In this phase, we collect specific information that impacts individual stakeholders or parts of the organization. Invariably some of this information will disparate/conflicting as different areas of an organization often have different objectives and metrics. In holding companies this dispersion is often even more pronounced.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+                    <script>
+                        $(document).ready(function () {
+                            $(".process-toggle3").on('click', function () {
+
+                                $(this).toggleClass("on");
+                                $('.process-section3').toggleClass("on");
+                                $(".popup3").toggleClass('hidden');
+
+                            });
+                        });
+                    </script>
+
+                    <div class="col-xs-3 step4">
+                        <img class="imgstep" src="assets/img/step4.png">
+                        <h2 class="no4">04.</h2>
+                        <h3 class="sub4">Collaboration<br>Ideation<br>Iteration</h3>
+                        <div class="process-section4">
+                            <div class="process-toggle4">
+                                <img class="arrow-open" src="assets/img/arrow-sm.png">
+                            </div>
+                            <div class="popup4 hidden">
+                                <a href="http://test.madhouseinc.com/"><img class="logo" id="top-logo2" src="assets/img/logohome4.png"></a>
+                                <!--<img class="popup-img" src="http://test.madhouseinc.com/assets/img/step4.png">-->
+                                <div class="popup-side4">
+                                    <!--<h3 class="pr-no4 pr-no">04.</h3>
+                                    <h2 class="pr4 pr">Collaboration/ <br>Ideation/Iteration</h2>
+                                    <hr style="width: 555px; background-color: black; float:left; height:1.8px; border:none;">-->
+                                    <p class="process-desc desc4">
+                                        In this phase we develop insights and discoveries as a group. We facilitate a collaboration/iteration session to develop thought threads and crystalize insights and implications. The goal is to drive toward common denominators, distill and simplify.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+                    <script>
+                        $(document).ready(function () {
+                            $(".process-toggle4").on('click', function () {
+
+                                $(this).toggleClass("on");
+                                $('.process-section4').toggleClass("on");
+                                $(".popup4").toggleClass('hidden');
+
+                            });
+                        });
+                    </script>
+
+                    <div class="col-xs-3 step5">
+                        <img class="imgstep" src="assets/img/step5.png">
+                        <h2 class="no5">05.</h2>
+                        <h3 class="sub5">Outcomes/<br>Road Map</h3>
+                        <div class="process-section5">
+                            <div class="process-toggle5">
+                                <img class="arrow-open" src="assets/img/arrow-sm.png">
+                            </div>
+                            <div class="popup5 hidden">
+                                <a href="http://test.madhouseinc.com/"><img class="logo" id="top-logo2" src="assets/img/logohome5.png"></a>
+                                <!--<img class="popup-img" src="http://test.madhouseinc.com/assets/img/step5.png">-->
+                                <div class="popup-side5">
+                                    <!--<h3 class="pr-no5 pr-no">05.</h3>
+                                    <h2 class="pr5 pr">Outcomes/ <br>Road Map</h2>
+                                    <hr style="width: 555px; background-color: white; float:left; height:1.8px; border:none;">-->
+                                    <p class="process-desc desc5">
+                                        We produce and present a formal report of key findings, recommendations and a specific path forward.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+                    <script>
+                        $(document).ready(function () {
+                            $(".process-toggle5").on('click', function () {
+
+                                $(this).toggleClass("on");
+                                $('.process-section5').toggleClass("on");
+                                $(".popup5").toggleClass('hidden');
+
+                            });
+                        });
+                    </script>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js'></script>
+    <script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+
+
+</body>
+</html>
